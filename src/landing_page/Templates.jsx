@@ -1,4 +1,9 @@
 import TemplateCard from "./components/template_card";
+import meetings from "../images/templatepngs/meeting.png";
+import weekly from "../images/templatepngs/weekly.png";
+import talent from "../images/templatepngs/talent.png";
+import specs from "../images/templatepngs/specs.png";
+import planning from "../images/templatepngs/planning.png"
 
 export default function Templates() {
   return (
@@ -17,27 +22,27 @@ export default function Templates() {
         <TemplateCard
           color="#1e90ff"
           title="Onboarding Meetings"
-          image="../images/templatepngs/meeting.png"
+          image={meetings}
         />
         <TemplateCard
           color="#ff6347"
           title="Weekly Reviews"
-          image="../images/templatepngs/weekly.png"
+          image={weekly}
         />
         <TemplateCard
           color="#ffae42 "
           title="Talent Acquisition"
-          image="../images/templatepngs/talent.png"
+          image={talent}
         />
         <TemplateCard
           color="#2e8b57"
           title="Product Specifications"
-          image="../images/templatepngs/specs.png"
+          image={specs}
         />
         <TemplateCard
           color="#b19cd9 "
           title="Product Planning"
-          image="../images/templatepngs/planning.png"
+          image={planning}
         />
       </div>
     </div>

@@ -1,3 +1,10 @@
+import vanmoof from "../images/company_logos/vanmoof.svg";
+import bamboo from "../images/company_logos/bamboohr.png";
+import agropulse from "../images/company_logos/agropulse.png";
+import spotify from "../images/company_logos/spotify.svg";
+import angloamerican from "../images/company_logos/angloamerican.png";
+import meero from "../images/company_logos/meero.svg";
+
 const FirstLook = () => {
   return (
     <div className="mt-[80px]">
@@ -42,12 +49,12 @@ const FirstLook = () => {
       <div className="my-8">
         <p className="text-center">200,00+ teams have found focus with Slite</p>
         <div className="mx-auto my-10 flex w-10/12 flex-row items-center justify-evenly">
-          <img src="../images/company_logos/vanmoof.svg" alt="" />
-          <img src="../images/company_logos/bamboohr.png" alt="" />
-          <img src="../images/company_logos/agropulse.png" alt="" />
-          <img src="../images/company_logos/spotify.svg" alt="" />
-          <img src="../images/company_logos/angloamerican.png" alt="" />
-          <img src="../images/company_logos/meero.svg" alt="" />
+          <img src={vanmoof} alt="" />
+          <img src={bamboo} alt="" />
+          <img src={agropulse} alt="" />
+          <img src={spotify} alt="" />
+          <img src={angloamerican} alt="" />
+          <img src={meero} alt="" />
         </div>
       </div>
     </div>

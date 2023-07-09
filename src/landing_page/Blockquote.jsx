@@ -1,3 +1,5 @@
+import person from "../images/person.png";
+
 export default function Blockquote() {
   return (
     <div>
@@ -17,7 +19,7 @@ export default function Blockquote() {
       <hr className="solid relative mx-auto mt-8 w-7/12 justify-center" />
       <div className="absolute right-20 -m-10 w-7/12">
         <img
-          src="../images/person.png"
+          src={person}
           className="mx-auto h-20 w-20 justify-center rounded-full "
         />
       </div>

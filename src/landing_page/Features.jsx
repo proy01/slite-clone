@@ -1,4 +1,7 @@
 import { useState, useRef, useLayoutEffect } from "react";
+import laptop from "../images/laptop.png";
+import laptopImage from "../images/laptopImage.png";
+
 
 const Features = () => {
   const featureList = [
@@ -66,9 +69,9 @@ const Features = () => {
             />
           </div>
           <div>
-            <img src="../images/laptop.png" alt="" className="relative" />
+            <img src={laptop} alt="" className="relative" />
             <img
-              src="../images/laptopImage.png"
+              src={laptopImage}
               alt=""
               className="absolute right-20 top-0 -z-10 bg-cover"
             />
