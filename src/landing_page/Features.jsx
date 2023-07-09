@@ -66,9 +66,9 @@ const Features = () => {
             />
           </div>
           <div>
-            <img src="../assets/laptop.png" alt="" className="relative" />
+            <img src="../images/laptop.png" alt="" className="relative" />
             <img
-              src="../assets/laptopImage.png"
+              src="../images/laptopImage.png"
               alt=""
               className="absolute right-20 top-0 -z-10 bg-cover"
             />

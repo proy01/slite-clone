@@ -17,27 +17,27 @@ export default function Templates() {
         <TemplateCard
           color="#1e90ff"
           title="Onboarding Meetings"
-          image="../assets/templatepngs/meeting.png"
+          image="../images/templatepngs/meeting.png"
         />
         <TemplateCard
           color="#ff6347"
           title="Weekly Reviews"
-          image="../assets/templatepngs/weekly.png"
+          image="../images/templatepngs/weekly.png"
         />
         <TemplateCard
           color="#ffae42 "
           title="Talent Acquisition"
-          image="../assets/templatepngs/talent.png"
+          image="../images/templatepngs/talent.png"
         />
         <TemplateCard
           color="#2e8b57"
           title="Product Specifications"
-          image="../assets/templatepngs/specs.png"
+          image="../images/templatepngs/specs.png"
         />
         <TemplateCard
           color="#b19cd9 "
           title="Product Planning"
-          image="../assets/templatepngs/planning.png"
+          image="../images/templatepngs/planning.png"
         />
       </div>
     </div>

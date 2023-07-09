@@ -29,12 +29,12 @@ const FirstLook = () => {
       </div>
       <div>
         <img
-          src="../assets/landingImage.png"
+          src="../images/landingImage.png"
           alt=""
           className="mx-auto flex items-center justify-center "
         />
         <img
-          src="../assets/changesMiniBanner.png"
+          src="../images/changesMiniBanner.png"
           alt=""
           className="mx-auto -mt-[150px] flex items-center justify-center"
         />
@@ -42,12 +42,12 @@ const FirstLook = () => {
       <div className="my-8">
         <p className="text-center">200,00+ teams have found focus with Slite</p>
         <div className="mx-auto my-10 flex w-10/12 flex-row items-center justify-evenly">
-          <img src="../assets/company_logos/vanmoof.svg" alt="" />
-          <img src="../assets/company_logos/bamboohr.png" alt="" />
-          <img src="../assets/company_logos/agropulse.png" alt="" />
-          <img src="../assets/company_logos/spotify.svg" alt="" />
-          <img src="../assets/company_logos/angloamerican.png" alt="" />
-          <img src="../assets/company_logos/meero.svg" alt="" />
+          <img src="../images/company_logos/vanmoof.svg" alt="" />
+          <img src="../images/company_logos/bamboohr.png" alt="" />
+          <img src="../images/company_logos/agropulse.png" alt="" />
+          <img src="../images/company_logos/spotify.svg" alt="" />
+          <img src="../images/company_logos/angloamerican.png" alt="" />
+          <img src="../images/company_logos/meero.svg" alt="" />
         </div>
       </div>
     </div>

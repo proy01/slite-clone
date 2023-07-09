@@ -17,7 +17,7 @@ export default function Blockquote() {
       <hr className="solid relative mx-auto mt-8 w-7/12 justify-center" />
       <div className="absolute right-20 -m-10 w-7/12">
         <img
-          src="../assets/person.png"
+          src="../images/person.png"
           className="mx-auto h-20 w-20 justify-center rounded-full "
         />
       </div>
